@@ -1,0 +1,79 @@
+@font-face {
+  font-family: question;
+  src: url(marola.TTF);
+}
+
+@font-face {
+  font-family: answer;
+  src: url(1942.ttf);
+}
+
+@font-face {
+  font-family: secret;
+  src: url(romantic.ttf);
+}
+
+
+.body{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+
+}
+
+.mycursor {
+cursor: url("bold.png"), auto;
+}
+
+h1{
+  font-family: question;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+a:link, a:visited, a:active{
+  font-family: answer;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+
+  -webkit-transition: color 0.5s; /* For Safari 3.0 to 6.0 */
+        transition: color 0.5s; /* For modern browsers */
+
+}
+
+a:hover{
+  color: F8f8ff;
+  cursor: url("hover.png"), auto;
+}
+
+h2{
+  font-family: secret;
+  font-style: normal;
+  font-size: 15px;
+  color: #F9f9f9;
+
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+        transition: color 1s; /* For modern browsers */
+
+}
+
+h2:hover {
+  color: black;
+  cursor: url("hover.png"), auto;
+}
+
+h3{
+  font-family: answer;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+
+}

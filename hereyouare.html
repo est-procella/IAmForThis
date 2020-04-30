@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0; /* Adjust as needed */
+  animation:
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #F8f8ff; }
+}
+
+.custom-text-input {
+  border: 1px solid black;
+  padding: 10px 10px;
+  font-size: 12pt;
+  font-family: answer;
+  width: 100%;
+}
+
+.unlock{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    letter-spacing: 3px;
+}
+
+</style>
+</head>
+
+<body class="mycursor">
+<link rel="stylesheet" href="style.css">
+
+<div class="typewriter body">
+  <h1> I want to hear about you. </br></h1>
+  <h3>If you’d like please share something that has been on your mind recently. This could be something that’s bothering you, something new you’ve learned, a poem, a song, a date, anything that provides your perspective for the pedestal to hold.
+  </h3>
+  <input type="text" class="custom-text-input" id="message" name="message">
+  </br> </br>
+   <a href="thanks.html"> > Done.  </a>
+</div>
+<div class="unlock">
+  <h2> 12/13 - A</br>
+Here I can create a pedestal that voices the perspectives of everybody and not just a pre-determined, select few. I Am for this Pedestal.
+</h2>
+</div>
+</body>
+
+</html>
